@@ -2,17 +2,16 @@
 *{
 	margin: 0;
 	padding: 0;
-
 }
 
 body{
 	font-family: 'Poppins', sans-serif;
 }
 
-.background{
-
+img{
+	background-repeat: no-repeat;
+	position: fixed center;
 }
-
 .nav{
 	flex: 1;
 	text-align: center;
@@ -44,7 +43,6 @@ body{
 
 .nav ul li:hover:after{
 	width: 100%;
-
 }
 
 
@@ -56,7 +54,6 @@ body{
 	margin: auto;
 	margin-top: 117px;
  	justify-content: center;
-
 }
 h1{
 	text-align: center;
@@ -68,13 +65,10 @@ h1{
 	list-style: none;
 	padding-top: 35px;
 	padding-left: 20px;
-
-
 }
 
 .box-buttom li a{
 	padding-left: 37%;
-	
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -103,7 +97,6 @@ h3{
 	width: 1000px;
 	height: 500px;
 	margin: auto;
-	
 }
 
 .info{
@@ -128,12 +121,10 @@ h3{
 }
 
 .tec1{
-	
 	width: 300px;
 }
 
 .tec1 ul li{
-	
 	list-style: none;
 	text-align: left;
 	padding-top: 15px;
@@ -143,21 +134,15 @@ h3{
 }
 
 .cor{
-
 	color: #19a1ad;
 	font-weight: bold;
 }
 
-
-
 .tec2{
-	
 	width: 300px;
-
 }
 
 .tec2 ul li{
-	
 	list-style: none;
 	text-align: right;
 	padding-top: 15px;
@@ -168,4 +153,27 @@ h3{
 
 .tec2 h2{
 	text-align: right;
+}
+
+.about{
+	margin: 0 auto;
+	width: 1000px;
+	height: 330px;
+	display: inline-block;
+}
+h2{
+	text-align: center;
+	font-weight: bold;
+}
+.about img{
+	float: left;
+	width: 250px;
+	margin-top: 30px;
+}
+
+.text-about h3{
+	text-align: justify;
+	font-size: 13px;
+	margin-top: 62.5px;
+	margin-left: 300px;
 }
